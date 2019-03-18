@@ -1,7 +1,7 @@
 
 import json
-
-with open('/Users/ryan/Documents/json-to-xml/cvexref.json', 'r') as f:
+path_to_json = ''
+with open(path_to_json, 'r') as f:
     json_dict = json.load(f)
     f.close()
 
